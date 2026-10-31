@@ -21,7 +21,7 @@ function mostrarConsejo() {
     document.getElementById("consejo").style.display = "block";
 }
 let respuesta = prompt("¿De qué material es la mejor armadura del juego?");
-if (respuesta.toLowerCase() === "diamante" || respuesta.toLowerCase() === "netherita") {
+if (respuesta.toLowerCase() === "netherite" || respuesta.toLowerCase() === "netherite") {
     alert("¡Correcto! 🎉");
 } else {
     alert("Casi, inténtalo de nuevo la próxima vez 😅");
